@@ -46,7 +46,7 @@ XX软件是深圳XX公司自主创新开发的一款功能强大帮助客户快�
 {% endstep %}
 
 {% step %}
-文件导航
+文件导航面板
 
 可以查看已经创建的窗体画面，加载图片，文本等列表。\
 可以新建窗体，导入已有窗体文件，设置启动窗体，对窗体文件重命名、移除等操作。
@@ -55,9 +55,9 @@ XX软件是深圳XX公司自主创新开发的一款功能强大帮助客户快�
 {% endstep %}
 
 {% step %}
-画面结构窗口
+画面结构面板
 
-可以查看选中窗体下所有控件及树的层级结构，通过拖动树中的控件的顺序或层级来改变控件Z轴顺序。操作如下图：
+打开的工程文件中，可以查看选中窗体下所有控件及树的层级结构，通过拖动树中对象的顺序或层级来改变其在Z轴顺序。操作如下图：
 
 <div align="left"><figure><img src="../.gitbook/assets/画面结构窗体.gif" alt=""><figcaption><p>画面结构展示了当前窗体中所有控件的在树中的层级</p></figcaption></figure></div>
 
@@ -67,7 +67,7 @@ XX软件是深圳XX公司自主创新开发的一款功能强大帮助客户快�
 {% step %}
 画布编辑窗口
 
-UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。画布区可以完成对控件的创建，编辑，删除等操作。标尺可以显示参考。
+UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。画布区还可以完成对控件的编辑，删除等操作。如果你希望在画布上显示标尺，可以点击工具栏的<img src="../.gitbook/assets/image.png" alt="" data-size="line">启用该功能。
 
 <figure><img src="../.gitbook/assets/画布编辑2.gif" alt=""><figcaption><p>画布编辑窗口可以对控件进行添加、编辑、删除等操作，操作区域可以显示标尺</p></figcaption></figure>
 {% endstep %}
@@ -100,7 +100,7 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 {% endstep %}
 
 {% step %}
-输出窗口/图片管理/<mark style="color:red;">变量编辑/动画编辑/结构体编辑器</mark>
+输出窗口/图片管理/<mark style="color:red;">变量编辑</mark>/动画编辑/<mark style="color:red;">结构体编辑器</mark>
 
 * **输出窗口**\
   ​编译当前工程时，显示所有错误、警告。
@@ -117,7 +117,7 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 * **动画编辑**
 
-动画编辑窗口可以对控件或画面进行渐变fade animation）和移动（translate animation）两种动画操作。前者通过设置关键帧的alpha值来实现渐变；后者通过设置关键帧的XY值来实现位置的移动。
+动画编辑窗口可以对控件或画面进行渐变（fade animation）和移动（translate animation）两种动画操作。前者通过设置关键帧的alpha值来实现渐变；后者通过设置关键帧的XY值来实现位置的移动。
 
 <div align="left"><figure><img src="../.gitbook/assets/动画编辑器1 (1).jpg" alt="" width="563"><figcaption><p>动画编辑器窗口</p></figcaption></figure></div>
 
@@ -127,7 +127,7 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 <div align="left"><figure><img src="../.gitbook/assets/新建动画组 (1).jpg" alt=""><figcaption><p>弹出窗口</p></figcaption></figure></div>
 
-如下图所示，操作对象出现在动画编辑窗口中，点击<img src="../.gitbook/assets/image.png" alt="" data-size="line">选择动画类型（支持多选）：fade animation、translate animation。
+如下图所示，操作对象出现在动画编辑窗口中，点击<img src="../.gitbook/assets/image (1).png" alt="" data-size="line">选择动画类型（支持多选）：fade animation、 translate animation。
 
 <figure><img src="../.gitbook/assets/选择动画类型.jpg" alt=""><figcaption><p>动画编辑窗口和弹出窗口的动画类型选择</p></figcaption></figure>
 
@@ -137,7 +137,7 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 <figure><img src="../.gitbook/assets/动画编辑器-关键帧.jpg" alt=""><figcaption></figcaption></figure>
 
-
+<mark style="color:red;">具体请参考动画相关例程。</mark>
 
 
 
@@ -149,29 +149,29 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 {% endstep %}
 
 {% step %}
-属性/交互编辑器/结构体
+属性/交互编辑窗口
 
 * **属性**
 
-<mark style="color:red;">对每个控件的名称、位置、外观、绑定外部变量等等参数的设定，每类控件的属性不同。</mark>
+&#x20; 画布右侧边栏允许查看和调整文件中对象的属性。每个控件都有相关预定义的属性，可以依具需求对这些属性进行设置，以实现自己需要的界面效果。相关的属性包括不限于控件尺寸、位置和颜色等外观属性，还包括其行为相关的属性，如是否可见等。<mark style="color:red;">还可以通过配置控件的控制属性，与外部硬件产生相关交互</mark>。
 
 * **交互编辑器**
 
-交互编辑器是对控件、窗体或工程文件设置触发事件时要执行的动作。XX软件中交互由触发事件和动作组成。
+交互编辑器是对控件、窗体或工程文件设置触发事件时要执行的动作。一个完整的交互由触发事件和动作组成。
 
 > 触发事件是引起“交互”的条件，为了让“动作”发生，应用中需要发生的事件。
 >
 > 动作是触发事件发出时将发生的行为。
 
-<div align="left"><figure><img src="../.gitbook/assets/交互编辑器事件-动作2.jpg" alt="" width="563"><figcaption><p>图2：全局交互逻辑中的事件和动作</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/交互编辑器事件-动作2.jpg" alt="" width="563"><figcaption><p>图1：全局交互逻辑中的事件和动作</p></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/交互编辑器事件-动作.jpg" alt="" width="563"><figcaption><p>图1：对象交互逻辑中的事件和动作</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/交互编辑器事件-动作.jpg" alt="" width="563"><figcaption><p>图2：对象交互逻辑中的事件和动作</p></figcaption></figure></div>
 
 图1：全局交互逻辑中的事件和动作；图2：对象交互逻辑中的事件和动作。
 
 <div align="left"><figure><img src="../.gitbook/assets/两种交互逻辑切换.jpg" alt="" width="375"><figcaption><p>交互逻辑中的两种选择</p></figcaption></figure></div>
 
-**添加、删除交互逻辑：**&#x5982;需要对某个对象作交互，首先选中对象，然后在交互编辑选项卡中点击<img src="../.gitbook/assets/image (5).png" alt="" data-size="line">选择全局交互或对象交互，再点击“添加交互逻辑”，依次选中事件和动作。交互逻辑添加成功后，可以对对象的交互逻辑进行删除、编辑，具体操作如下所示：
+**添加、删除交互逻辑：**&#x5982;需要对某个对象作交互，首先选中对象，然后在交互编辑选项卡中点击左侧<img src="../.gitbook/assets/image (5).png" alt="" data-size="line">选择全局交互或对象交互，再点击“添加交互逻辑”，依次选中事件和动作。交互逻辑添加成功后，对对象的交互逻辑可以进行删除、编辑，具体操作如下所示：
 
 <div align="left"><figure><img src="../.gitbook/assets/交互编辑-添加删除.gif" alt=""><figcaption><p>选中对象后添加、删除交互逻辑</p></figcaption></figure></div>
 
