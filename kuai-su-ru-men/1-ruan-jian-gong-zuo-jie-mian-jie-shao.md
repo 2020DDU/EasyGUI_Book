@@ -145,6 +145,8 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 * <mark style="color:red;">**变量编辑器**</mark>
 
+<div align="left"><figure><img src="../.gitbook/assets/变量编辑窗口.jpg" alt="" width="246"><figcaption><p>变量编辑器窗口</p></figcaption></figure></div>
+
 变量是实现动态交互、数据存储、复杂逻辑的重要工具。通过变量可以简化工作流程、提高设计效率、增强协作并创建适应用强的交互设计、提升设计可扩展性和整理质量。
 
 **变量类型：**
@@ -163,7 +165,9 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 变量类型：Int32、Bool、Char、Color、Double、Float、Imageld、Int16、Int32、String、Textld  Uchar、Uint16、Uint32以及自己创建的结构体类型。
 
-数组：可以创建数组变量，集合相同数据类型，使数据保持整洁。
+数组：数组可以存储多个数据，是相同数据类型的集合，数组让数据保持整洁。索引从0开始。
+
+
 
 
 {% endstep %}
