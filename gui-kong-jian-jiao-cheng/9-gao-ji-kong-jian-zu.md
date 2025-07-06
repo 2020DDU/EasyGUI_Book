@@ -8,7 +8,9 @@
 
 <div align="left"><figure><img src="../.gitbook/assets/模拟时钟.gif" alt="" width="300"><figcaption><p>模拟器中运行的模拟时钟效果</p></figcaption></figure></div>
 
-n
+### 属性
+
+<table><thead><tr><th width="115.74661254882812">属性组</th><th width="655.0386047363281">属性说明</th></tr></thead><tbody><tr><td>名称</td><td>控件名称，可以修改，具有唯一性</td></tr><tr><td>位置</td><td>锁定 锁定/解锁对象的大小和位置</td></tr><tr><td></td><td>X/Y 指定控件坐标（坐标原点为画布左上角）</td></tr><tr><td></td><td>宽度/高度 对像的宽度/高度值（单位：像素）此处由图片大小决定，不可以更改</td></tr><tr><td>外观</td><td>显示  设置显示或隐藏本对象，True/False 或绑定变量</td></tr><tr><td></td><td>不透明度（0-100），0完全透明，100完全不透明 可以绑定变量</td></tr><tr><td>控制</td><td>设置时间源  设置时钟绑定到时间类型的变量（System:Time)</td></tr><tr><td></td><td>时针线性随动  设置为NO时，时针将在分钟走完一圈后才移动一格</td></tr><tr><td></td><td>分针线性随动  设置为NO时，分针将在秒钟走完一圈后才移动一格</td></tr><tr><td>图片</td><td>背景图  选择模拟时钟的背景图片</td></tr><tr><td></td><td>中心xy  设置背景中心X坐标Y坐标</td></tr><tr><td></td><td>时针图 选择时针图</td></tr><tr><td></td><td>时针旋转中心X/Y 设置时针图旋转中心的XY坐标</td></tr><tr><td></td><td>分针图 选择分针图</td></tr><tr><td></td><td>分针旋转中心X/Y 设置分针图旋转中心的XY坐标</td></tr><tr><td></td><td>秒针图 选择秒针图</td></tr><tr><td></td><td>秒针旋转中心X/Y 设置秒针图旋转中心的XY坐标</td></tr></tbody></table>
 
 
 
