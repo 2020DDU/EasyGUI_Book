@@ -113,9 +113,9 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 * **图片管理**
 
-<div align="left"><figure><img src="../.gitbook/assets/图片管理窗口.jpg" alt="" width="375"><figcaption><p>图片管理窗口部分截图</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/图片管理窗口.jpg" alt="" width="375"><figcaption><p>图片管理窗口</p></figcaption></figure></div>
 
-<mark style="color:red;">上图中1、2分别为：工程图片资源、软件自带图片库资源。</mark>
+<mark style="color:red;">上图中图片管理窗口分别为：工程图片资源、软件自带图片库资源。</mark>
 
 * **动画编辑器**
 
@@ -147,7 +147,7 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 <div align="left"><figure><img src="../.gitbook/assets/变量编辑窗口.jpg" alt="" width="246"><figcaption><p>变量编辑器窗口</p></figcaption></figure></div>
 
-变量是实现动态交互、数据存储、复杂逻辑的重要工具。通过变量可以简化工作流程、提高设计效率、增强协作并创建适应用强的交互设计、提升设计可扩展性和整理质量。
+变量是实现动态交互、数据存储、复杂逻辑的重要工具。通过变量可以简化工作流程、提高设计效率、增强协作并创建适应用强的交互设计、提升设计可扩展性和整体质量。
 
 **变量类型：**
 
@@ -157,9 +157,7 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 **操作变量**
 
-创建变量：先确定要创建的对象是全局变量还是局部变量，在变量编辑器窗口中，点击<img src="../.gitbook/assets/image.png" alt="" data-size="line">可以进行的全局和当前变量的切换，当图标变成<img src="../.gitbook/assets/image (1).png" alt="" data-size="line">时，创建的是全局变量。点击<img src="../.gitbook/assets/image (3).png" alt="" data-size="line">添加变量。
-
-变量类型：创建变量时，会弹出如下窗口，输入变量名称，设置变量类型。
+创建变量：先确定要创建的对象是全局变量还是局部变量，在变量编辑器窗口中，点击<img src="../.gitbook/assets/image.png" alt="" data-size="line">可以进行的全局和当前变量的切换，当图标变成<img src="../.gitbook/assets/image (1).png" alt="" data-size="line">时，创建的是全局变量。点击<img src="../.gitbook/assets/image (3).png" alt="" data-size="line">添加变量，弹出如下窗口，输入变量名称，设置变量类型。
 
 <div align="left"><figure><img src="../.gitbook/assets/变量弹出窗口.jpg" alt="" width="326"><figcaption><p>弹出窗口</p></figcaption></figure></div>
 
