@@ -67,7 +67,7 @@ XX软件是深圳XX公司自主创新开发的一款功能强大帮助客户快�
 {% step %}
 **画布编辑窗口**
 
-UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。画布区还可以完成对控件的编辑，删除等操作。如果你希望在画布上显示标尺，可以点击工具栏的<img src="../.gitbook/assets/image.png" alt="" data-size="line">启用该功能。
+UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。画布区还可以完成对控件的编辑，删除等操作。如果你希望在画布上显示标尺，可以点击工具栏的<img src="../.gitbook/assets/image (4).png" alt="" data-size="line">启用该功能。
 
 <figure><img src="../.gitbook/assets/画布编辑2.gif" alt=""><figcaption><p>画布编辑窗口可以对控件进行添加、编辑、删除等操作，操作区域可以显示标尺</p></figcaption></figure>
 {% endstep %}
@@ -129,13 +129,13 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 <div align="left"><figure><img src="../.gitbook/assets/新建动画组 (1).jpg" alt=""><figcaption><p>新建动画组-----弹出窗口</p></figcaption></figure></div>
 
-如下图所示，操作对象出现在动画编辑窗口中，点击<img src="../.gitbook/assets/image (1).png" alt="" data-size="line">选择动画类型（支持多选）：fade animation、 translate animation。
+如下图所示，操作对象出现在动画编辑窗口中，点击<img src="../.gitbook/assets/image (1) (1).png" alt="" data-size="line">选择动画类型（支持多选）：fade animation、 translate animation。
 
 <figure><img src="../.gitbook/assets/选择动画类型.jpg" alt=""><figcaption><p>动画编辑窗口和弹出窗口的动画类型选择</p></figcaption></figure>
 
 **建立关键帧**
 
-点击<img src="../.gitbook/assets/image (4).png" alt="" data-size="line">建立关键帧，并在属性窗口中对关键帧设置相关参数。
+点击<img src="../.gitbook/assets/image (4) (1).png" alt="" data-size="line">建立关键帧，并在属性窗口中对关键帧设置相关参数。
 
 <figure><img src="../.gitbook/assets/动画编辑器-关键帧.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -143,11 +143,27 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 
 
-* **变量编辑器**
+* <mark style="color:red;">**变量编辑器**</mark>
 
-变量是实现动态交互、数据存储、复杂逻辑的重要工具。
+变量是实现动态交互、数据存储、复杂逻辑的重要工具。通过变量可以简化工作流程、提高设计效率、增强协作并创建适应用强的交互设计、提升设计可扩展性和整理质量。
 
-变量分为全局变量和当前变量。
+**变量类型：**
+
+全局变量：整个原型中可访问，用于整个系统的数据传递。
+
+局部变量：仅在当前的交互动作中使用。变量属于某个控件时，那么这些变量仅能被这个控件或者控件的子控件们访问。
+
+**操作变量**
+
+创建变量：先确定要创建的对象是全局变量还是局部变量，在变量编辑器窗口中，点击<img src="../.gitbook/assets/image.png" alt="" data-size="line">可以进行的全局和当前变量的切换，当图标变成<img src="../.gitbook/assets/image (1).png" alt="" data-size="line">时，创建的是全局变量。点击<img src="../.gitbook/assets/image (3).png" alt="" data-size="line">添加变量。
+
+变量类型：创建变量时，会弹出如下窗口，输入变量名称，设置变量类型。
+
+<div align="left"><figure><img src="../.gitbook/assets/变量弹出窗口.jpg" alt="" width="326"><figcaption><p>弹出窗口</p></figcaption></figure></div>
+
+变量类型：Int32、Bool、Char、Color、Double、Float、Imageld、Int16、Int32、String、Textld  Uchar、Uint16、Uint32以及自己创建的结构体类型。
+
+数组：可以创建数组变量，集合相同数据类型，使数据保持整洁。
 
 
 {% endstep %}
