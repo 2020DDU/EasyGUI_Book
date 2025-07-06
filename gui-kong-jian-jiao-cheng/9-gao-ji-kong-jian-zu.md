@@ -4,7 +4,11 @@
 
 ## 9.1 模拟时钟
 
+模拟时钟控件，可以通过绑定主机系统，显示时间的模拟时钟，时钟使用背景图像作为钟面，时针、分针、秒针都使用图像，围绕一个可配置的中心旋转。
 
+<div align="left"><figure><img src="../.gitbook/assets/模拟时钟.gif" alt="" width="300"><figcaption><p>模拟器中运行的模拟时钟效果</p></figcaption></figure></div>
+
+n
 
 
 
