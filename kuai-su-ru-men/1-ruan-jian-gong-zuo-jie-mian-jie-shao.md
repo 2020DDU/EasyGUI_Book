@@ -125,9 +125,9 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 **新建动画组**
 
-首先在动画编辑器窗品使能动画后，选择<img src="../.gitbook/assets/image (10).png" alt="" data-size="line">新建动画组，当出现下图的弹出窗口后，再对动画组ID进行命名，选择要操作的对象（支持多选）。
+首先在动画编辑器窗品**使能**动画后，选择<img src="../.gitbook/assets/image (10).png" alt="" data-size="line">新建动画组，当出现下图的弹出窗口后，再对动画组ID进行命名，选择要操作的对象（支持多选）。
 
-<div align="left"><figure><img src="../.gitbook/assets/新建动画组 (1).jpg" alt=""><figcaption><p>弹出窗口</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/新建动画组 (1).jpg" alt=""><figcaption><p>新建动画组-----弹出窗口</p></figcaption></figure></div>
 
 如下图所示，操作对象出现在动画编辑窗口中，点击<img src="../.gitbook/assets/image (1).png" alt="" data-size="line">选择动画类型（支持多选）：fade animation、 translate animation。
 
@@ -145,6 +145,10 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 * **变量编辑器**
 
+变量是实现动态交互、数据存储、复杂逻辑的重要工具。
+
+变量分为全局变量和当前变量。
+
 
 {% endstep %}
 
@@ -153,27 +157,31 @@ UI界面的编辑区，在此区域拖放控件，即可完成控件的创建。
 
 * **属性编辑器**
 
-&#x20;画布右侧边栏允许查看和调整文件中对象的属性。每个控件都有相关预定义的属性，可以依具需求对这些属性进行设置，以实现自己需要的界面效果。相关的属性包括不限于控件尺寸、位置和颜色等位置属性，还包括控制其行为相关的外观属性，如是否可见、透明度等。<mark style="color:red;">还可以通过配置控件的控制属性，绑定相关变量，以达到其与外部硬件产生相关交互的目的。</mark>
+画布右侧边栏允许查看和调整文件中对象的属性。每个控件都有相关预定义的属性，可以依具需求对这些属性进行设置，以实现自己需要的界面效果。相关的属性包括不限于控件尺寸、位置和颜色等位置属性，还包括控制其行为相关的外观属性，如是否可见、透明度等。<mark style="color:red;">还可以通过配置控件的控制属性，绑定相关变量，以达到其与外部硬件产生相关交互的目的。</mark>
 
 
 
 * **交互编辑器**
 
-交互编辑器是对控件、窗体或工程文件设置触发事件时要执行的动作。一个完整的交互由触发事件和动作组成。
+交互编辑器是对对象设置触发事件时要执行的动作。一个完整的交互由触发事件和动作组成。
 
 > 触发事件是引起“交互”的条件，为了让“动作”发生，应用中需要发生的事件。
 >
 > 动作是触发事件发出时将发生的行为。
 
+
+
+<mark style="color:red;">软件不仅支持给单个控件、窗体添加交互，也支持用“容器”给某一片区域添加交互。除此之外还可以对整个系统添加交互，也称为全局交互逻辑，事件称之为系统事件。全局交互逻辑和对象交互逻辑的事件和动作（Events\&Actions)如图1和图2所示。</mark>
+
 <div align="left"><figure><img src="../.gitbook/assets/交互编辑器事件-动作2.jpg" alt="" width="563"><figcaption><p>图1：全局交互逻辑中的事件和动作</p></figcaption></figure></div>
 
 <div align="left"><figure><img src="../.gitbook/assets/交互编辑器事件-动作.jpg" alt="" width="563"><figcaption><p>图2：对象交互逻辑中的事件和动作</p></figcaption></figure></div>
 
-图1：全局交互逻辑中的事件和动作；图2：对象交互逻辑中的事件和动作。
 
-<div align="left"><figure><img src="../.gitbook/assets/两种交互逻辑切换.jpg" alt="" width="375"><figcaption><p>交互逻辑中的两种选择</p></figcaption></figure></div>
 
-**添加、删除交互逻辑：**&#x5982;需要对某个对象作交互，首先选中对象，然后在交互编辑选项卡中点击左侧<img src="../.gitbook/assets/image (5).png" alt="" data-size="line">选择全局交互或对象交互，再点击“添加交互逻辑”，依次选中事件和动作。交互逻辑添加成功后，对对象的交互逻辑可以进行删除、编辑，具体操作如下所示：
+<div align="left"><figure><img src="../.gitbook/assets/两种交互逻辑切换.jpg" alt="" width="375"><figcaption><p>图3：交互逻辑中的两种选择</p></figcaption></figure></div>
+
+**添加、删除交互逻辑：**&#x5982;需要对某个对象作交互，首先选中对象，然后在交互编辑选项卡中点击图3左侧<img src="../.gitbook/assets/image (5).png" alt="" data-size="line">，进行全局交互或对象交互切换，选择需要的交互方式后，再点击“添加交互逻辑”，依次设定事件和动作。交互逻辑添加成功后，对象的交互逻辑可以进行删除、编辑，具体操作如下图所示：
 
 <div align="left"><figure><img src="../.gitbook/assets/交互编辑-添加删除.gif" alt=""><figcaption><p>选中对象后添加、删除交互逻辑</p></figcaption></figure></div>
 
